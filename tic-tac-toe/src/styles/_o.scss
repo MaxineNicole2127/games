@@ -1,0 +1,39 @@
+.o {
+    background-color: $red;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 9px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -6px 1px 3px 1px rgba(163, 24, 24, 0.5);
+    .small-o {
+        background-color: white;
+        width: 2.3rem;
+        height: 2.3rem;
+        border-radius: 50%;
+        border: 9px solid black;
+    }
+}
+
+.little-o {
+    background-color: $red;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    // position: absolute;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -6px 1px 3px 1px rgba(163, 24, 24, 0.5);
+    .small-o {
+        background-color: white;
+        width: 0.6rem;
+        height: 0.6rem;
+        border-radius: 50%;
+        border: 3px solid black;
+    }
+}
